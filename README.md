@@ -61,7 +61,7 @@ Table of contents
 #### Option 2: Composer (Recommended for developers)
 1. In your Drupal root, run:
    ```bash
-   composer require bentonow/bento-drupal-sdk
+   composer require bentonow/bento-drupal-sdk:@dev --repository='{"type": "vcs", "url": "https://github.com/bentonow/bento-drupal-sdk"}'
    ```
 2. Enable the module via the admin UI or with Drush:
    ```bash
